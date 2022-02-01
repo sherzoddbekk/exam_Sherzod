@@ -43,6 +43,7 @@ import java.util.List;
          CustomAdapter adapter = new CustomAdapter(users, this);
          recyclerView.setAdapter(adapter);
 
+
      }
 
      private List<User> prepareMemberList(){
